@@ -36,6 +36,7 @@ int main()
 
     printf ("\nThe robot is now ready to draw\n");
     printf("print back on the main branch");
+    print("print in new brach")
 
         //These commands get the robot into 'ready to draw mode' and need to be sent before any writing commands
     sprintf (buffer, "G1 X0 Y0 F1000\n");
